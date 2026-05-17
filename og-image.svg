@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b0e1a"/>
+      <stop offset="100%" style="stop-color:#1a2332"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6399eb"/>
+      <stop offset="100%" style="stop-color:#4a7ed4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Maple leaf watermark -->
+  <path d="M600 80 L620 160 L680 130 L660 180 L730 170 L700 210 L760 230 L710 245 L780 275 L720 290 L760 340 L700 320 L680 370 L660 320 L600 340 L540 320 L520 370 L500 320 L440 340 L480 290 L420 275 L490 245 L440 230 L500 210 L470 170 L540 180 L520 130 L580 160 Z" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="3"/>
+  <!-- BTC circle -->
+  <circle cx="300" cy="315" r="80" fill="rgba(247,147,26,0.1)"/>
+  <text x="300" y="340" text-anchor="middle" font-size="60" fill="#f7931a" font-family="Arial">₿</text>
+  <!-- ETH diamond -->
+  <polygon points="900,255 960,315 900,375 840,315" fill="rgba(99,153,235,0.1)"/>
+  <text x="900" y="330" text-anchor="middle" font-size="35" fill="#6399eb" font-family="Arial">◇</text>
+  <!-- Main text -->
+  <text x="600" y="210" text-anchor="middle" font-size="64" font-weight="800" fill="#fff" font-family="Arial">Get $20 Free</text>
+  <text x="600" y="280" text-anchor="middle" font-size="40" font-weight="600" fill="#8892a8" font-family="Arial">in Bitcoin or Ethereum</text>
+  <!-- Divider -->
+  <line x1="400" y1="310" x2="800" y2="310" stroke="url(#accent)" stroke-width="2" opacity="0.5"/>
+  <text x="600" y="360" text-anchor="middle" font-size="22" fill="#6399eb" font-family="Arial">Canada's Easiest Crypto App</text>
+  <!-- CTA badge -->
+  <rect x="430" y="390" width="340" height="50" rx="25" fill="url(#accent)"/>
+  <text x="600" y="424" text-anchor="middle" font-size="20" font-weight="bold" fill="#fff" font-family="Arial">shakepay.thealpha-secret.xyz</text>
+  <!-- Stars -->
+  <circle cx="100" cy="100" r="3" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="1100" cy="80" r="3" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="950" cy="550" r="2" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="250" cy="520" r="2" fill="rgba(255,255,255,0.04)"/>
+</svg>
