@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shakepay — Buy & Sell Crypto in Canada | Get $20 Free</title>
+  <meta name="description" content="Sign up for Shakepay and get $20 free in Bitcoin or Ethereum. Canada's easiest crypto app. Buy, sell, and earn daily rewards with Shakepay." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://shakepay.thealpha-secret.xyz" />
+  <meta property="og:title" content="Shakepay — Get $20 Free Crypto" />
+  <meta property="og:description" content="Sign up with my referral link and we'll each get $20 to buy crypto. Canada's most trusted crypto app." />
+  <meta property="og:url" content="https://shakepay.thealpha-secret.xyz" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://shakepay.thealpha-secret.xyz/og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shakepay — Get $20 Free Crypto" />
+  <meta name="twitter:description" content="Sign up with my referral link and we'll each get $20 in free Bitcoin or Ethereum." />
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0b0e1a;
+      color: #e0e4f0;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background:
+        radial-gradient(ellipse at 30% 20%, rgba(99,153,235,0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 70% 80%, rgba(252,196,55,0.05) 0%, transparent 50%);
+      pointer-events: none; z-index: 0;
+    }
+    .container { max-width: 800px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+
+    /* ── Hero ── */
+    .hero {
+      text-align: center;
+      padding: 80px 0 50px;
+    }
+    .hero .badge {
+      display: inline-block;
+      background: rgba(99,153,235,0.12);
+      border: 1px solid rgba(99,153,235,0.25);
+      color: #6399eb;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding: 6px 18px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    .hero .logo { margin-bottom: 20px; }
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 46px);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+    .hero h1 span { color: #6399eb; }
+    .hero p {
+      font-size: 17px;
+      color: #8892a8;
+      max-width: 560px;
+      margin: 0 auto 32px;
+    }
+    .hero .offer {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fcc437;
+      margin-bottom: 24px;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      padding: 16px 48px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      background: linear-gradient(135deg, #6399eb, #4a7ed4);
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all 0.3s;
+      box-shadow: 0 4px 24px rgba(99,153,235,0.3);
+    }
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(99,153,235,0.45);
+    }
+    .cta-btn:active { transform: translateY(0); }
+    .cta-sub {
+      font-size: 13px;
+      color: #6b7490;
+      margin-top: 12px;
+    }
+
+    section { padding: 50px 0; }
+    section h2 {
+      font-size: clamp(22px, 3vw, 28px);
+      font-weight: 700;
+      color: #f0f4ff;
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    /* ── Stats ── */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+    .stat-item { text-align: center; }
+    .stat-item .num {
+      font-size: 28px;
+      font-weight: 700;
+      color: #6399eb;
+    }
+    .stat-item .label {
+      font-size: 12px;
+      color: #6b7490;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 4px;
+    }
+
+    /* ── Features ── */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .feature-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 14px;
+      padding: 24px 20px;
+      text-align: center;
+      transition: all 0.3s;
+    }
+    .feature-card:hover {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(99,153,235,0.3);
+      transform: translateY(-2px);
+    }
+    .feature-card .icon { font-size: 32px; margin-bottom: 10px; }
+    .feature-card h3 { font-size: 16px; color: #f0f4ff; margin-bottom: 6px; }
+    .feature-card p { font-size: 13px; color: #8892a8; }
+
+    /* ── How It Works ── */
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .step { text-align: center; padding: 20px 12px; }
+    .step .num {
+      width: 42px; height: 42px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #6399eb, #4a7ed4);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; font-weight: 800; margin: 0 auto 14px;
+    }
+    .step h3 { font-size: 16px; color: #f0f4ff; margin-bottom: 6px; }
+    .step p { font-size: 13px; color: #8892a8; }
+
+    /* ── CTA Banner ── */
+    .cta-banner {
+      background: linear-gradient(135deg, rgba(99,153,235,0.08), rgba(252,196,55,0.04));
+      border: 1px solid rgba(99,153,235,0.2);
+      border-radius: 16px;
+      padding: 40px 32px;
+      text-align: center;
+    }
+    .cta-banner h3 {
+      font-size: 22px;
+      color: #fcc437;
+      margin-bottom: 10px;
+    }
+    .cta-banner p {
+      font-size: 15px;
+      color: #8892a8;
+      max-width: 520px;
+      margin: 0 auto 24px;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      color: #5a6378;
+      font-size: 13px;
+    }
+    footer a { color: #8892a8; text-decoration: none; }
+    footer a:hover { color: #6399eb; }
+
+    @media (max-width: 640px) {
+      .hero { padding: 50px 0 30px; }
+      .stats { gap: 20px; }
+      .stat-item .num { font-size: 22px; }
+      .cta-btn { padding: 14px 32px; font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero">
+    <div class="badge">🇨🇦 Canadian Crypto App</div>
+    <h1>Get <span>$20 Free</span> in Crypto</h1>
+    <p>Shakepay is Canada's easiest way to buy and sell Bitcoin and Ethereum. Sign up with my referral link and we'll both get <strong>$20 free</strong> in crypto.</p>
+    <div class="offer">🎉 You + Me = $40 Total ($20 each)</div>
+    <a href="https://shakepay.me/r/DY4EXJM" class="cta-btn" target="_blank" rel="noopener">
+      ★ Claim Your $20 Free
+    </a>
+    <p class="cta-sub">Interac e-Transfer • Free deposits • Regulated & insured • 5 min signup</p>
+  </section>
+
+  <!-- ═══ STATS ═══ -->
+  <section style="padding-top:0;">
+    <div class="stats">
+      <div class="stat-item"><div class="num">$5B+</div><div class="label">Trading Volume</div></div>
+      <div class="stat-item"><div class="num">1M+</div><div class="label">Canadian Users</div></div>
+      <div class="stat-item"><div class="num">$20</div><div class="label">Free for You</div></div>
+      <div class="stat-item"><div class="num">0</div><div class="label">Deposit Fees</div></div>
+    </div>
+  </section>
+
+  <!-- ═══ HOW IT WORKS ═══ -->
+  <section>
+    <h2>How to Get Your $20 Free</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="num">1</div>
+        <h3>Click the Link</h3>
+        <p>Tap the button above to sign up for Shakepay using my referral code.</p>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h3>Verify & Deposit</h3>
+        <p>Complete ID verification (2 min) and fund your account with $100 via Interac e-Transfer.</p>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h3>Get $20 Free</h3>
+        <p>We both receive $20 in Bitcoin or Ethereum. Buy, hold, withdraw — it's yours.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FEATURES ═══ -->
+  <section>
+    <h2>Why Shakepay?</h2>
+    <div class="features">
+      <div class="feature-card">
+        <div class="icon">📱</div>
+        <h3>Simple Mobile App</h3>
+        <p>Clean, intuitive interface built for Canadians. Buy BTC and ETH in seconds.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🏦</div>
+        <h3>Interac e-Transfer</h3>
+        <p>Deposit with Interac e-Transfer — free, instant, and familiar. No wire fees.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🔒</div>
+        <h3>Regulated & Insured</h3>
+        <p>FINTRAC registered, MSB licensed. Crypto held in cold storage with insurance.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🎁</div>
+        <h3>ShakingSats Rewards</h3>
+        <p>Open the app daily and shake your phone to earn free Satoshis — real Bitcoin rewards.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">💳</div>
+        <h3>Crypto Cash Card</h3>
+        <p>Spend your Bitcoin and Ethereum anywhere with the Shakepay Card. Real cashback.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">📤</div>
+        <h3>Free Withdrawals</h3>
+        <p>Send crypto to any wallet with zero withdrawal fees. No hidden charges.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ WHY NOW ═══ -->
+  <section>
+    <div class="cta-banner">
+      <h3>🎯 $20 Free Crypto — Limited Time</h3>
+      <p>New users who sign up with my referral link and deposit $100 get $20 in free Bitcoin or Ethereum. No strings attached — you can withdraw it immediately.</p>
+      <a href="https://shakepay.me/r/DY4EXJM" class="cta-btn" target="_blank" rel="noopener">
+        ★ Claim Your $20
+      </a>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>⚡ <strong>Shakepay</strong> — Canada's Easiest Crypto App</p>
+  <p style="margin-top:4px;">Referral link: <a href="https://shakepay.me/r/DY4EXJM">shakepay.me/r/DY4EXJM</a></p>
+  <p style="margin-top:10px;">
+    <a href="https://gutwise.thealpha-secret.xyz">🟢 GutWise</a> ·
+    <a href="https://ai-body.thealpha-secret.xyz">🔵 AI Body</a> ·
+    <a href="https://pi.thealpha-secret.xyz">π Research</a> ·
+    <a href="https://cryptotab.thealpha-secret.xyz">⚡ CryptoTab</a>
+  </p>
+</footer>
+
+</body>
+</html>
